@@ -95,7 +95,7 @@ class FontProxy
 							return ($sniff['version'] > 3.1) ? array(FontTypes::TTF, FontTypes::OTF) : false;
 							break;
 						case 'chrome':
-							return ($sniff['version'] > 4) ? array(FontTypes::TTF, FontTypes::OTF) : false;
+							return ($sniff['version'] > 4) ? array(FontTypes::WOFF, FontTypes::TTF, FontTypes::OTF) : false;
 							break;
 						case 'firefox':
 							return ($sniff['version'] > 3.5) ? array(FontTypes::TTF, FontTypes::OTF) : false;

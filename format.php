@@ -20,12 +20,10 @@ $proxy->addFontTypes('Amatic-Regular', array(
 
 
 $proxy->addFontTypes('Oxygen-Regular', array(
-	FontTypes::OTF => './fonts/oxygen/oxygen-regular.otf',
 	FontTypes::EOT => './fonts/oxygen/oxygen-regular.eot',
 	FontTypes::TTF => './fonts/oxygen/oxygen-regular.ttf',
 		FontTypes::WOFF => './fonts/oxygen/oxygen-regular.woff'
 ))->addFontTypes('Oxygen-Bold', array(
-	FontTypes::OTF => './fonts/oxygen/oxygen-bold.otf',
 	FontTypes::EOT => './fonts/oxygen/oxygen-bold.eot',
 	FontTypes::TTF => './fonts/oxygen/oxygen-bold.ttf',
 	FontTypes::WOFF => './fonts/oxygen/oxygen-bold.woff'
